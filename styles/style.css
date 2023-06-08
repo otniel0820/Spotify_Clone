@@ -1,0 +1,121 @@
+nav{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    padding: 10px 15px;
+}
+
+#logoimg{
+    width: 20%;
+    height: 30%;
+}
+nav ul{
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    height: 700px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align: center;
+}
+header h1,p{
+    position: relative;
+    top: 40%;
+}
+#titulo{
+    font-size: 3.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.parrafo{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whatSpotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subgreem{
+    border-bottom: 3px solid rgb(32, 184, 138); 
+}
+.description{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tittleGreen{
+    color: rgb(68, 248, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafoDes{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgdes{
+    max-width: 90px;
+    height: 90px;
+}
+.description>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+    
+}
+.description>div>p{
+    margin: 0;
+    width: 200px;
+    height: 60px;
+}
+#tittleKanye{
+    color: white;
+    padding: 60px;
+   
+}
+#tittleKanye{
+    background-color: rgba(20, 214, 94, 0.699);
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#imgApp{
+    display: flex;
+    justify-content: end;
+    align-items:start;
+    
+}
+#imgKanye{
+    height: 620px;
+}
+.uses{
+    flex-direction: column;
+    color: white;
+    padding: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#west{
+    border-bottom: 2px solid white;
+    margin-left: 12px;
+    padding-bottom: 10px;
+    
+}
